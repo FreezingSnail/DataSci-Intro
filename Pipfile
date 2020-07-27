@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+scikit-image = "*"
+pillow = "*"
+matplotlib = "*"
+seaborn = "*"
+line-profiler = "*"
+memory-profiler = "*"
+numexpr = "*"
+pandas-datareader = "*"
+netcdf4 = "*"
+ipykernel = "*"
+jupyter = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.8"
